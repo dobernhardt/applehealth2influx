@@ -1,0 +1,12 @@
+apiVersion: 1
+
+datasources:
+  - name: InfluxDB
+    type: influxdb
+    access: direct
+    database: healthdata
+    isDefault: true 
+    url: http://localhost:8086
+    jsonData:
+      httpMode: GET
+    editable: true
