@@ -1,6 +1,5 @@
 import click
 import pathlib
-import pyodbc
 from influxdb import InfluxDBClient
 import logging
 import zipfile
